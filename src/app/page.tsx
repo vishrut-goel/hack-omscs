@@ -7,10 +7,10 @@ import Contact from "@/components/contact";
 
 export default function Home() {
   return (
-    <main>
+    <main style={{ overflowY: "scroll", height: "100vh" }}>
       <HeroSection />
-      <Content />
       <Feature />
+      <Content />
       <Contact />
     </main>
   );

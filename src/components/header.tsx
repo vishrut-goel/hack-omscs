@@ -29,10 +29,10 @@ const Header = () => {
           </svg>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-gray-900">About Us</a>
-          <a className="mr-5 hover:text-gray-900">Sponsors</a>
-          <a className="mr-5 hover:text-gray-900">FAQ</a>
-          <a className="mr-5 hover:text-gray-900">Schedule</a>
+          <a href ="#main" className="mr-5 hover:text-gray-900">About Us</a>
+          <a href = "#sponsors" className="mr-5 hover:text-gray-900">Sponsors</a>
+          <a href = "#faq" className="mr-5 hover:text-gray-900">FAQ</a>
+          <a href = "#schedule" className="mr-5 hover:text-gray-900">Schedule</a>
         </nav>
         <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
           Apply Now
